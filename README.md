@@ -23,13 +23,20 @@
 - Partenaire : 1819.bxl Région de Bruxelles-Capitale ![charte graphique et logo](http://be.brussels/a-propos-de-la-region/charte-graphique-de-la-region-de-bruxelles-capitale)
 - Pas de publicité sur le site, interface épurée
 - SEO : Artisant / Artisanat / Bruxelles / BXL 
+- Durée maximum du projet 3 mois
 
 
 ## Etapes suivantes
 
 * Les artisants doivent avoir leur propre page de présentation (CMS dans lequel l'artisant peut gérer son contenu) :
-	* Ils doivent pouvoir rajouter 2 à 3 images
+	* Ils doivent pouvoir rajouter 2 à 3 images (max X mega)
 	* Présenter leurs produits
 	* Pouvoir vendre au moins 1 à 3 de leurs produits (pour faire tester au client) en utilisant *Paypal*
 	* Pouvoir bénéficier d'un formulaire de contact
 	* L'artisant pourrait s'enregistrer facilement depuis son compte *Facebook* ou *Google*
+
+
+## Language
+
+- Non-spécifié au choix du développeur 
+- ![Voir CIRB](http://cirb.brussels/)
