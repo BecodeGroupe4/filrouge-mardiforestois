@@ -1,6 +1,13 @@
 # Projet "Artisants.bxl"
 -------------------------
 
+Pour le bon déroulement du projet, nous vous demandons de créer une branche à votre nom.
+
+Travaillez sur votre branche avant de merge avec la master afin d'éviter tout problème.
+
+Bon travail :)
+
+
 ## Ce qui ressort du One-Page
 
 - ["Les Mardis Forestois"](https://laureenb.github.io/One_page_marche/)
