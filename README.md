@@ -3,7 +3,9 @@
 
 Pour le bon déroulement du projet, nous vous demandons de créer une branche à votre nom.
 
-Travaillez sur votre branche avant de merge avec la master afin d'éviter tout problème.
+Travaillez sur votre branche avant de merge avec la branche Developpement.
+
+Le merge de Developpement avec la master se fera à la fin de chaque phase après avoir eu le feu vert du client.
 
 Bon travail :)
 
