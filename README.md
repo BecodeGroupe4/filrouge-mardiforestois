@@ -19,7 +19,7 @@ Bon travail :)
 ## Le site
 
 - Adapter le site à la Ville de Bruxelles
-- Promovoir l'artisanat local et Belge
+- Promouvoir l'artisanat local et Belge
 - Donner aux artisants une présence digitale et les aider à utiliser le web (penser à une formation de quelques heures pour les former lors de leurs inscription)
 - Présentation de plus ou moins 200 artisants
 - Public cible : les artisants et leurs clients
