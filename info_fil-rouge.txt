@@ -1,8 +1,0 @@
-Compte Gmail:
-Mail => becodegroupe4@gmail.com
-Mdp => Becodegroupe
-
-Son compte GitHub :
-Username => BecodeGroupe4
-Mail => becodegroupe4@gmail.com
-Mdp => Becode-Groupe4
