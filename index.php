@@ -24,7 +24,7 @@
       $newsletter->connection("localhost","MardisForestois","root","user");
       $newsletter->AddMail($mail);
     } else {
-      echo "<p>Invalid or empty mail address</p>";	
+      echo "<p>Invalid or empty mail address</p>";
     }
   }
 ?>
@@ -51,12 +51,7 @@
         <h1>Les Marchés de Bruxelles</h1>
         <h1>Inscrivez vous a notre Newsletter</h1>
         <div class="container">
-          <div id="timer">
-            <span id="days"></span><p>days</p>
-            <span id="hours"></span><p>hours</p>
-            <span id="minutes"></span><p>minutes</p>
-            <span id="seconds"></span><p>seconds</p>
-          </div>
+          <div id="compte_a_rebours"> Compte à rebours</div>
           <div>
             <form method="post" action="index.php">
               <label for="mail">Email: </label>
@@ -65,7 +60,7 @@
             </form>
           </div>
         </div>
-      </div> 
+      </div>
     </header>
     <script src="js/app.js"></script>
   </body>
