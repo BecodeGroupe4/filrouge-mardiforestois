@@ -21,7 +21,7 @@
     $mail = $_POST["mail"];
     if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
       $newsletter = new Newsletter();
-      $newsletter->connection("localhost","MardisForestois","root","user");
+      $newsletter->connection("ec2-54-217-245-53.eu-west-1.compute.amazonaws.com","d9at96gohcjsil","tuzbcejcrfudnu","96767589d8e59ac79cf0eed1cc7e4508351b295d2e9ed7d3fdb18a46849cc4f8");
       $newsletter->AddMail($mail);
     } else {
       echo "<p>Invalid or empty mail address</p>";	
