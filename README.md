@@ -1,52 +1,89 @@
+# Questions pour le client
+---------------------------
 
- -# Projet "Artisants.bxl"
- --------------------------
- -
- -Pour le bon déroulement du projet, nous vous demandons de créer une branche à votre nom.
- -
- -Travaillez sur votre branche avant de merge avec la branche Developpement.
- -
- -Le merge de Developpement avec la master se fera à la fin de chaque phase après avoir eu le feu vert du client.
- -
- -Bon travail :)
- -
- -
- -## Ce qui ressort du One-Page
- -
- -- ["Les Mardis Forestois"](https://laureenb.github.io/One_page_marche/)
- -- Thème un peu générique.
- -- Changer slogan ; mettre quelque chose de plus concret (ex: "Rencontrez nos artisants")
- -- Voir le One-Page comme une première version
- -
- -
- -## Le site
- -
- -- Adapter le site à la Ville de Bruxelles
- -- Promouvoir l'artisanat local et Belge
- -- Donner aux artisants une présence digitale et les aider à utiliser le web (penser à une formation de quelques heures pour les former lors de leurs inscription)
- -- Présentation de plus ou moins 200 artisants
- -- Public cible : les artisants et leurs clients
- -- Doit être adapté au mobile
- -- Agenda avec les différents marchés d'artisants sur Bruxelles
- -- Site en FR / NL (en tout cas pour les pages de présentations, à voir si les artisants veulent traduire leur page dans les 2 langues)
- -- Pas vraiment de concurrent excepté *Les pages d'Or* et *Google MyBusiness*, mais ce sont des outils qui peuvent permettre aux artisants de se faire connaître et de développer leurs activité (former également les artisants à cette partie, leur proposé de créer un compte sur *Google MyBusiness*)
- -- Partenaire : [1819](https://www.1819.brussels) Région de Bruxelles-Capitale [charte graphique et logo](http://be.brussels/a-propos-de-la-region/charte-graphique-de-la-region-de-bruxelles-capitale)
- -- Pas de publicité sur le site, interface épurée
- -- SEO : Artisant / Artisanat / Bruxelles / BXL
- -- Durée maximum du projet 3 mois
- -
- -
- -## Etapes suivantes
- -
- -* Les artisants doivent avoir leur propre page de présentation (CMS dans lequel l'artisant peut gérer son contenu) :
- -	* Ils doivent pouvoir rajouter 2 à 3 images (max X mega)
- -	* Présenter leurs produits
- -	* Pouvoir vendre au moins 1 à 3 de leurs produits (pour faire tester au client) en utilisant *Paypal*
- -	* Pouvoir bénéficier d'un formulaire de contact
- -	* L'artisant pourrait s'enregistrer facilement depuis son compte *Facebook* ou *Google+*
- -
- -
- -## Language
- -
- -- Non-spécifié au choix du développeur
- -- [Voir CIRB](http://cirb.brussels/) pour les outils et services disponibles.
+
+## Lay-out principal
+---------------------
+
+- Pourquoi faire un site?
+
+Réponse -> Envie de promouvoir l'artisanat local, aider les artisants à développer leurs activités, leur donner une présence digital et dynamique.
+
+- Êtes-vous déja présent sur le web?
+
+Réponse -> Client est déjà présent sur le web (OnePage).
+
+- Titre / Lieu / Horaires ?
+
+Réponse -> Partout dans la région bruxelloise, horraire en fonction des artisants.
+
+- Pour quel type de public (tranche d'âge, statut, éducation,...)
+
+Réponse -> Tout âge, public familiale et professionnel
+
+- Quels sont les activités à présenter, il y a t-il des spécialités ?
+
+Réponse -> Activités diverses (principalement culinaire)
+
+- Combien y-a-t-il d'artisants/participants et combien d'entre eux doivent être présentés sur le site ?
+
+Réponse -> Le client voudrait minimum 200 artisants, chacun avec sa propre page.
+- Par rapport au One-Page (page princiaple) que doit-il ressortir en premier lieu ?
+
+Réponse -> J'aimerais repartir sur le même style design.
+
+- En quelles langues
+
+Réponse -> Bilingue Français/Néerlandais (Possibilité de traduire chaque page)
+
+- Photos / contenu / media
+
+Réponse -> Aux choix des artisants mais de façon limité pour garder une interface épurée.
+
+- Partenaires et sponsors commerciaux
+
+Réponse -> https://www.1819.brussels est notre partenaire principal.
+
+- Quels sont les concurrents ?
+
+Réponse -> [Page d'Or](https://www.pagesdor.be), [Google MyBusiness](https://www.google.be/intl/fr/business/go/?dclid=CPaV7sGT4dgCFYmoyAodaFkBnA) et autres sites identiques mais nous les considérons plus comme des partenaires étant donné que ça permet à nos artisants de mieux se développer.
+
+- Faut-il un agenda ?
+
+Réponse -> Oui, si possible un agenda participatif (Chaque artisant peut y afficher ses évenements).
+
+- Y aura t-il des changements réguliers à faire sur le site, avez-vous le temps pour ça ?
+
+Réponse -> Problablement des mises à jour périodique pour lesquelles nous ferons de nouveau appel à vous. Les artisants auront la possibilité da modifier leurs page personnelle quand ils le désirent.
+
+- Les participants / artisants sont-ils d'accord d'être sur le site ?
+
+Réponse -> Oui, les artisants voulant s'afficher s'inscriveront sur le site et créerons leurs page.
+
+- Qui est la personne chargée de valider le travail ?
+
+Réponse -> L'échevin des indépendants.
+
+- Avez-vous des exigences particulières ?
+
+Réponse -> Faire en sorte que le site soit aussi disponible en version mobile pour faciliter les recherches des utilisateurs en rues et leurs payement via l'application ou en ligne (obligatoirement Paypal). Possibilité de s'inscrire via un compte Twitter, Facebook, Google+ (si inexistant, via un formulaire classic)
+
+
+## Design
+----------
+
+- Faut-il de la publicité sur le site ?
+
+Réponse -> Si possible non.
+
+- Avez-vous une charte graphique (couleurs) ?
+
+Réponse -> [Charte graphique](http://be.brussels/a-propos-de-la-region/charte-graphique-de-la-region-de-bruxelles-capitale)
+
+- Logo / slogan ?
+
+Réponse -> Logo à reprendre de notre charte graphique et tenter de trouver si possible un slogan accrocheur.
+
+- Voulez-vous mettre des mots-clés en avant ?
+
+Réponse -> Des mots en rapport avec l'artisanat, des mots qui se répètent le plus souvent sur le site.
