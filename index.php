@@ -17,11 +17,15 @@
     }
   }
 
-  $mail = $_POST["mail"];
-  if (isset($mail) && filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-    $newsletter = new Newsletter();
-    $newsletter->connection("localhost","MardisForestois","root","user");
-    $newsletter->AddMail($mail);
+  if (isset($_POST["mail"])) {
+    $mail = $_POST["mail"];
+    if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+      $newsletter = new Newsletter();
+      $newsletter->connection("localhost","MardisForestois","root","user");
+      $newsletter->AddMail($mail);
+    } else {
+      echo "<p>Invalid or empty mail address</p>";	
+    }
   }
 ?>
 
