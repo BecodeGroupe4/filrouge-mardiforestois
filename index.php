@@ -52,7 +52,7 @@
         <h1>Inscrivez vous a notre Newsletter</h1>
         <div class="container">
           <div id="compte_a_rebours"> Compte à rebours</div>
-          <div>
+          <div class="formulaire">
             <form method="post" action="index.php">
               <label for="mail">Email: </label>
               <input type="text" id="mail" name="mail"/>

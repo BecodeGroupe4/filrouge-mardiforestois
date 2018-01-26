@@ -421,6 +421,18 @@ h2 {
   text-align: center;
   font-weight: 800; }
 
+#compte_a_rebours {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px; }
+
+.formulaire {
+  position: absolute;
+  left: 37%; }
+
 .has-animation {
   position: relative;
   width: 960px;
