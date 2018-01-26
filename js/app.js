@@ -33,39 +33,21 @@ $(window).scroll(function() {
 	});
 });
 
-var timer;
+var CountDownDate = new Date("Feb 2, 2018 00:00:00").getTime();
 
-var compareDate = new Date();
-compareDate.setDate(compareDate.getDate() + 7); //just for this demo today + 7 days
+var x = setInterval(function() {
+  var now= new Date().getTime();
+  var distance = CountDownDate - now;
 
-timer = setInterval(function() {
-  timeBetweenDates(compareDate);
-}, 1000);
+  var days= Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance %(1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60))/ 1000);
 
-function timeBetweenDates(toDate) {
-  var dateEntered = toDate;
-  var now = new Date();
-  var difference = dateEntered.getTime() - now.getTime();
+  document.getElementById('compte_a_rebours').innerHTML = days + "Jours <br/>" + hours + "Heures <br/>" + minutes + "Minutes <br/>" + seconds + "Secondes <br/>";
 
-  if (difference <= 0) {
-
-    // Timer done
-    clearInterval(timer);
-
-  } else {
-
-    var seconds = Math.floor(difference / 1000);
-    var minutes = Math.floor(seconds / 60);
-    var hours = Math.floor(minutes / 60);
-    var days = Math.floor(hours / 24);
-
-    hours %= 24;
-    minutes %= 60;
-    seconds %= 60;
-
-    $("#days").text(days);
-    $("#hours").text(hours);
-    $("#minutes").text(minutes);
-    $("#seconds").text(seconds);
+  if (distance < 0 ) {
+    clearInterval(x);
+    document.getElementById('compte_a_rebours').innerHTML = "Expired";
   }
-}
+})

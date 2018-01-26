@@ -24,7 +24,7 @@
       $newsletter->connection("ec2-54-217-245-53.eu-west-1.compute.amazonaws.com","d9at96gohcjsil","tuzbcejcrfudnu","96767589d8e59ac79cf0eed1cc7e4508351b295d2e9ed7d3fdb18a46849cc4f8");
       $newsletter->AddMail($mail);
     } else {
-      echo "<p>Invalid or empty mail address</p>";	
+      echo "<p>Invalid or empty mail address</p>";
     }
   }
 ?>
@@ -51,13 +51,8 @@
         <h1>Les Marchés de Bruxelles</h1>
         <h1>Inscrivez vous a notre Newsletter</h1>
         <div class="container">
-          <div id="timer">
-            <span id="days"></span><p>days</p>
-            <span id="hours"></span><p>hours</p>
-            <span id="minutes"></span><p>minutes</p>
-            <span id="seconds"></span><p>seconds</p>
-          </div>
-          <div>
+          <div id="compte_a_rebours"> Compte à rebours</div>
+          <div class="formulaire">
             <form method="post" action="index.php">
               <label for="mail">Email: </label>
               <input type="text" id="mail" name="mail"/>
@@ -65,7 +60,7 @@
             </form>
           </div>
         </div>
-      </div> 
+      </div>
     </header>
     <script src="js/app.js"></script>
   </body>
